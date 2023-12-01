@@ -1,0 +1,85 @@
+
+body{
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5 ; raccourci :*/
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    /* padding:0;
+    margin: 0; */
+    background-color: #f4f4f4;
+}
+
+
+
+/* .container{
+    display:flex;
+    flex-wrap: wrap;
+}
+#branding{
+    margin-left:150px; 
+    flex:2;
+}
+nav{
+     margin-right:150px; 
+    flex:1;
+} */
+
+
+.container{
+    width:80%
+    margin: auto; 
+    /* La propriété margin: auto; appliquée au body a un effet spécifique lorsque combinée avec display: flex ou utilisée dans un contexte où l'élément parent a une largeur fixée.
+
+    Lorsqu'elle est utilisée sur le body avec margin: auto; et que le body a display: flex (ou l'élément parent direct), cela peut permettre de centrer le contenu horizontalement et verticalement dans la fenêtre du navigateur si certaines conditions sont remplies.
+    
+    Cependant, pour que margin: auto; fonctionne et centre effectivement le contenu, certaines conditions doivent être remplies :
+    
+    display: flex ou largeur définie de l'élément parent : Pour que margin: auto; fonctionne sur le body, le body doit être un élément flex (ou l'élément parent direct doit avoir une largeur définie) pour que les marges automatiques puissent être utilisées pour centrer le contenu horizontalement et verticalement.
+    
+    Absence d'autres contraintes ou marges définies : Il ne doit pas y avoir de marges spécifiques (comme margin-left, margin-right, margin-top, ou margin-bottom) définies pour perturber le fonctionnement des marges automatiques.
+    
+    Lorsque ces conditions sont remplies, margin: auto; sur le body avec display: flex peut permettre de centrer le contenu de la page horizontalement et verticalement par rapport à la fenêtre du navigateur.
+    
+    Cela dit, il est essentiel de noter que margin: auto; sur le body n'est pas une méthode de centrage standard recommandée pour la mise en page CSS moderne. Des méthodes plus spécifiques et robustes telles que l'utilisation de Flexbox, Grid ou des techniques de positionnement sont généralement préférées pour un meilleur contrôle et une meilleure compatibilité entre navigateurs.  */
+    overflow: hidden;
+
+}
+
+header{
+    background: #35424a;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height:70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
